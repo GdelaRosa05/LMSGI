@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.background-gradient{
+    width: 100px;
+    height: 300px;
+    background-color: #e0ff6f;
+    border-radius: 100%;
+    box-shadow: 0 0 1000px 800px #e0ff6f;
+    transform: translateY(-1150px) translateX(-450px);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.notch{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: notch-anim 0.4s ease-in-out;
+}
+
+
+.notch-item{
+    padding: 9px 15px;
+    margin: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+}
+
+.notch-item.active{
+    background-color: #e0ff6f;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.notch-item.active a{
+    color: black;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+@keyframes notch-anim {
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(5px);
+    }
+}

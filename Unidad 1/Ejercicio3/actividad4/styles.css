@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+	background-color: #004899;
+}
+
+modulo{
+	background-color: #004899;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Inter", sans-serif;
+	color: white;
+	padding: 20px;
+	position: absolute;
+	width: 550px;
+	height: 400px;
+	left: calc(50% - 275px);
+	top: calc(50% - 200px);
+	box-shadow: 1px 1px 10px 10px white;
+	transition: 0.2s;
+}
+
+modulo:hover{
+	width: 600px;
+	height: 450px;
+	left: calc(50% - 300px);
+	top: calc(50% - 225px);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+info{
+	width: auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+alumnos{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+
+alumno{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+}

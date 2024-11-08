@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='styles.css'?>
+
+<catalogo>
+	<libro>
+	    <titulo>Clean Code</titulo>
+	    <autor>Robert C. Martin</autor>
+	    <año>2008</año>
+	    <editora>Prentice Hall</editora>
+	</libro>
+	<libro>
+	    <titulo>The Pragmatic Programmer</titulo>
+	    <autor>Andrew Hunt, David Thomas</autor>
+	    <año>1999</año>
+	    <editora>Addison-Wesley</editora>
+	</libro>
+	<libro>
+	    <titulo>Design Patterns: Elements of Reusable Object-Oriented Software</titulo>
+	    <autor>Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</autor>
+	    <año>1994</año>
+	    <editora>Addison-Wesley</editora>
+	</libro>
+	<libro>
+	    <titulo>Refactoring: Improving the Design of Existing Code</titulo>
+	    <autor>Martin Fowler</autor>
+	    <año>1999</año>
+	    <editora>Addison-Wesley</editora>
+	</libro>
+</catalogo>

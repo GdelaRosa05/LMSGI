@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='styles.css'?>
+
+<body>
+    <modulo>
+        <info>
+            <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+            <ciclo>Desarrollo de Aplicaciones Multiplataforma (DAM)</ciclo>
+            <horasSemanales unidad="h">4</horasSemanales>
+            <caracter>Obligatorio</caracter>
+            <duracion>
+                <inicio>15 de septiembre de 2010</inicio>
+                <final>30 de junio de 2011</final>
+            </duracion>
+        </info>
+        <alumnos>
+            <alumno>
+                <nombreCompleto>Ana Fernández Gutiérrez</nombreCompleto>
+                <nif>16965696L</nif>
+                <telefono>789654321</telefono>
+                <email>ana.fdgtzrez@hotmail.com</email>
+                <direccion>
+                    <calle>El Percebe, 13</calle>
+                    <ciudad>Santander</ciudad>
+                    <codigoPostal>39002</codigoPostal>
+                </direccion>
+                <faltasDeAsistencia>No hay información</faltasDeAsistencia>
+                <nota>No hay información</nota>
+            </alumno>
+            <alumno>
+                <nombreCompleto>Pepito Grillo</nombreCompleto>
+                <nif>98765432H</nif>
+                <telefono>656565655</telefono>
+                <email>yhyy@yahoo.com</email>
+                <direccion>
+                    <calle>Avd. El Pez, 5</calle>
+                    <ciudad>Suances</ciudad>
+                    <codigoPostal>39401</codigoPostal>
+                </direccion>
+                <faltasDeAsistencia>Sin faltas de asistencia</faltasDeAsistencia>
+                <nota>Apto</nota>
+            </alumno>
+        </alumnos>
+    </modulo>
+</body>
