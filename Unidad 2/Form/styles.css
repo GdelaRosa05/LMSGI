@@ -14,7 +14,20 @@ body{
 }
 
 input{
+    font-family: "Inter", sans-serif;
+    padding: 7px;
     height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .background-gradient{
@@ -26,15 +39,30 @@ input{
     transform: translateY(-1150px) translateX(-450px);
 }
 
-.form{
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: translateY(-100px);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-30px);
 }
 
 .row{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-direction: column;
     width: 280px;
-    background-color: pink;
 }
