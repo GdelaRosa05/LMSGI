@@ -7,32 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="box">
+    <div id="box" class="box">
         <div class="container1">
-            <img class="pfp" src="pfp.jpg" alt="">
+            <img class="pfp" src="img/pfp.jpg" alt="">
             <div class="text-header">
                 <p class="name">Gonzalo de la Rosa</p>
                 <p class="curriculum">Curriculum vitae</p>
             </div>
+            <div class="buttons-header">
+                <button><img class="download" src="img/download.png" alt=""></button>
+                <button id="theme"><img class="sun" src="img/sun.png" alt=""></button>
+                <a target="_blank" href="https://github.com/GdelaRosa05"><button><img class="github" src="img/github.png" alt=""></button></a>
+            </div>
         </div>
         <div class="container2">
             <div class="box1">
-                <div class="contacto">
+                <div id="contacto" class="contacto">
                     <div class="head-data">
-                        <img class="contact-icon" src="contacto.png" alt="">
+                        <img class="contact-icon" src="img/contacto.png" alt="">
                         <p class="text-contacto">Contacto</p>
                     </div>
                     <div class="body-box1">
                         <p class="data-title">Teléfono</p>
-                        <p class="data">698938789</p>
+                        <p class="data">698 93 87 89</p>
                         <p class="data-title">Correo</p>
                         <p class="data">2005gdelarosa@gmail.com</p>
                     </div>
                 </div>
 
-                <div class="idiomas">
+                <div id="idiomas" class="idiomas">
                     <div class="head-data">
-                        <img class="language-icon" src="language.png" alt="">
+                        <img class="language-icon" src="img/language.png" alt="">
                         <p class="name">Idiomas</p>
                     </div>
                     <div class="body-box1">
@@ -50,10 +55,10 @@
                 </div>
             </div>
             <div class="box2">
-                <div class="personal">
+                <div id="personal" class="personal">
                     <div class="box2-head-data">
                         <div class="box2-img">
-                            <img class="personal-icon" src="personal.png" alt="">
+                            <img class="personal-icon" src="img/personal.png" alt="">
                         </div>
                         <div class="box2-header-text">
                             <p class="box2-name">Información personal</p>
@@ -75,10 +80,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="experiencia">
+                <div id="experiencia" class="experiencia">
                     <div class="box2-head-data">
                         <div class="box2-img">
-                            <img class="personal-icon" src="experiencia.png" alt="">
+                            <img class="personal-icon" src="img/experiencia.png" alt="">
                         </div>
                         <div class="box2-header-text">
                             <p class="box2-name">Experiencia laboral</p>
@@ -88,14 +93,14 @@
                     <div class="box2-body">
                         <div class="row">
                             <p class="box2-data2-title">Hostelería:</p>
-                            <p class="box2-data2">Restaurante La Gambuza - 3 meses (Verano 2024)</p>
+                            <p class="box2-data2">Restaurante La Gambuza - 3 meses (verano 2024)</p>
                         </div>
                     </div>
                 </div>
-                <div class="estudios">
+                <div id="estudios" class="estudios">
                     <div class="box2-head-data">
                         <div class="box2-img">
-                            <img class="personal-icon" src="estudios.png" alt="">
+                            <img class="personal-icon" src="img/estudios.png" alt="">
                         </div>
                         <div class="box2-header-text">
                             <p class="box2-name">Formación académica</p>
@@ -104,7 +109,7 @@
                     </div>
                     <div class="box2-body">
                         <div class="row">
-                            <p class="box2-data2-title">Estudios en curso: FP superior de Desarrollo de Aplicaciones Web - I.E.S Mar de Cádiz</p>
+                            <p class="box2-data2-title">Estudios en curso: FP superior de Desarrollo de Aplicaciones Web - IES Mar de Cádiz</p>
                         </div>
                         <div class="row">
                             <p style="margin-left: 15px;" class="box2-data2">- Configuración y gestión de sistemas informáticos.</p>
@@ -119,12 +124,14 @@
                             <p style="margin-left: 15px;" class="box2-data2">- Desarrollo de aplicaciones web con acceso a datos.</p>
                         </div>
                         <div class="row">
-                            <p style="margin-top: 10px;" class="box2-data2-title">Estudios finalizados: Bachillerato tecnológico - I.E.S Francisco Javier Uriarte</p>
+                            <p style="margin-top: 10px;" class="box2-data2-title">Estudios finalizados: Bachillerato tecnológico - IES Francisco Javier Uriarte</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
