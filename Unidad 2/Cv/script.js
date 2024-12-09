@@ -15,9 +15,14 @@ const box2Img = document.querySelectorAll('.box2-img')
 const button = document.querySelectorAll('.button')
 const github = document.getElementById('github')
 const sun = document.getElementById('sun')
-const downlaod = document.getElementById('downlaod')
+const download = document.getElementById('download')
+const downloadBtn = document.getElementById('download-btn')
 
 let themeStatus = false
+
+downloadBtn.addEventListener('click', function(){
+    window.location.href = 'Curriculum vitae - Gonzalo de la Rosa.pdf'
+})
 
 themeBtn.addEventListener('click', function(){
     if (themeStatus === false){
