@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html, body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.result{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.bar-box{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 5px;
+}
+
+.bar{
+    height: 5px;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result h1{
+    margin: 20px;
+    font-size: 100px;
+    transition: 0.2s;
+}
+
+.numbers{
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.item{
+    background-color: orange;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}

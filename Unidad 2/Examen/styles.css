@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    background-color: blue;
+    padding: 0.1em;
+    margin-bottom: 0.3em;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    color: blue;
+}
+
+.links ul li a{
+    margin-right: 1em;
+    color: white;
+    font-size: 1.3em;
+}
+
+.contenido{
+    height: fit-content;
+    display: flex;
+}
+
+.lateral{
+    width: 300px;
+    height: fit-content;
+}
+
+.principal{
+    width: 70%;
+    margin: 2em;
+    line-height: 1.2em;
+    height: fit-content;
+}
+
+.principal table{
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+
+.principal a{
+    color: #CC6600;
+}
+
+.principal p{
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+.principal h1{
+    color: orangered;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0.3em;
+}
+
+.derecha{
+    width: 200px;
+    clear: both;
+    border: 1px solid #CC6600;
+    height: fit-content;
+    padding: 0.5em;
+}
+
+.derecha a{
+    color: blue;
+}
+
+.title{
+    background-color: #CC6600;
+    padding: 0.5em;
+    color: white;
+    margin: 0;
+}
+
+.noticias{
+    font-size: 0.9em;
+    color: #003366;
+    border: 1px solid grey;
+    padding: 0.5em;
+    background-color: rgb(241, 241, 241);
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+.noticias a{
+    color: blue;
+}
+
+.enlaces-noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.publicidad{
+    border: 1px solid grey;
+    background-color: rgb(255, 208, 120);
+    padding: 0.5em;
+}
+
+.publicidad p{
+    color: #555;
+}
+
+.publicidad a {
+    color: #CC6600;
+}
+
+.fecha{
+    color: #999;
+}
+
+.pie{
+    width: 100%;
+    margin-bottom: 0.3em;
+    border: 1px solid grey;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 5px;
+}
+
+.pie p {
+    margin-right: 0.5em;
+}
+
+.pie ul{
+    display: flex;
+}
+
+.pie ul li{
+    color: rgb(241, 241, 241);
+}
+
+.pie ul li a{
+    margin-right: 1em;
+    color: blue;
+}
