@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    padding: 25px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 15px;
+    color: white;
+}
+
+.title{
+    margin-top: 0;
+}
+
+.subtitle{
+    color: rgb(190, 190, 190);
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.input-box{
+    margin: 20px 0 20px 0;
+}
+
+input{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.formatPlaceholder{
+    border: none;
+}
+
+.formatPlaceholder::placeholder{
+    color: grey;
+}
+
+.errorPlaceholder{
+    border: 1px solid rgb(255, 68, 68);
+}
+
+.errorPlaceholder::placeholder{
+    color: rgb(255, 68, 68);
+}
+
+button{
+    background-color: rgb(3, 162, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.added-nums{
+    width: fit-content;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: rgb(0, 185, 0);
+    margin-bottom: 0;
+    background-color: rgba(0, 185, 0, 0.158);
+}
