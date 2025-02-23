@@ -13,14 +13,38 @@ body{
 }
 
 .container{
+    width: 300px;
     padding: 25px;
     background-color: rgb(37, 37, 37);
     border-radius: 15px;
     color: white;
+    -webkit-box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+}
+
+.header{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
 .title{
     margin-top: 0;
+}
+
+.reload{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.reload-img{
+    width: 25px;
+    height: 25px;
 }
 
 .subtitle{
@@ -40,6 +64,7 @@ input{
     padding: 10px;
     color: white;
     font-family: "Inter", sans-serif;
+    margin-right: 10px;
 }
 
 input[type=number]::-webkit-outer-spin-button,
@@ -51,6 +76,10 @@ input[type=number]::-webkit-inner-spin-button {
 input:focus{
     border: none;
     outline: none;
+}
+
+input::placeholder{
+    color: grey;
 }
 
 .formatPlaceholder{
@@ -69,7 +98,7 @@ input:focus{
     color: rgb(255, 68, 68);
 }
 
-button{
+.input-box button{
     background-color: rgb(3, 162, 255);
     color: white;
     border: none;
@@ -80,10 +109,68 @@ button{
 }
 
 .added-nums{
+    font-size: 12px;
     width: fit-content;
-    padding: 6px 10px;
-    border-radius: 10px;
-    color: rgb(0, 185, 0);
+    margin-top: -10px;
     margin-bottom: 0;
-    background-color: rgba(0, 185, 0, 0.158);
+    color: rgb(0, 185, 0);
+    background-color: rgba(0, 185, 0, 0.15);
+    padding: 4px 8px;
+    border-radius: 7px;
+}
+
+.result-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.result{
+    background-color: rgb(59, 59, 59);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.peerWin{
+    background-color: rgb(70, 187, 70);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.oddWin{
+    background-color: rgb(255, 68, 68);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.container2{
+    margin-top: 15px;
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 15px;
+    color: white;
+    -webkit-box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 21px -6px rgba(0,0,0,0.75);
+}
+
+.title2{
+    margin-top: 0;
+    margin: 0;
+}
+
+.numbers-list{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(190, 190, 190);
 }

@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio JS | Gonzalo de la Rosa</title>
+    <title>Ejercicio JS AP.2 | Gonzalo de la Rosa</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <p class="title">Introduce un número</p>
+        <div class="header">
+            <p class="title">Introduce un número</p>
+            <button id="reload-btn" class="reload"><img src="img/reaload.png" alt="Reload" class="reload-img"></button>
+        </div>
         <p class="subtitle">Se devolverá la cantidad de números pares e impares.</p>
         <div class="input-box">
             <input placeholder="Example: 34" type="number" id="add-num-input">
             <button id="add-btn">Añadir</button>
         </div>
-        <p class="added-nums">Números añadidos: <span id="count-words">0</span></p>
+        <p class="added-nums">Números añadidos: <span class="count-words" id="count-words">0</span></p>
+        <p class="result-box"><span id="peer-text">PAR</span> <span id="result" class="result"><span id="peer" class="peer">0</span> - <span id="odd" class="odd">0</span></span> <span id="odd-text">IMPAR</span></p>
+    </div>
+    <div class="container2">
+        <p class="title2">Listado de números: </p>
+        <p class="numbers-list" id="numbers-list"></p>
     </div>
     <script src="script.js"></script>
 </body>
