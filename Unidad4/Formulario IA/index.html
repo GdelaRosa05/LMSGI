@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario IA - Coches</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="formulario">
+    <h1>Formulario de Coches</h1>
+    <div class="options">
+        <div class="option-group" id="motor">
+            <label class="title">Motor:</label>
+            <label><input type="radio" name="motor" value="gasolina" required> Gasolina</label>
+            <label><input type="radio" name="motor" value="diesel"> Diésel</label>
+            <label><input type="radio" name="motor" value="eléctrico"> Eléctrico</label>
+            <label><input type="radio" name="motor" value="híbrido"> Híbrido</label>
+        </div>
+    
+        <div class="option-group" id="transmision">
+            <label class="title">Transmisión:</label>
+          <label><input type="radio" name="transmision" value="manual" required> Manual</label>
+          <label><input type="radio" name="transmision" value="automática"> Automática</label>
+        </div>
+    
+        <div class="option-group" id="traccion">
+            <label class="title">Tracción:</label>
+          <label><input type="radio" name="traccion" value="delantera" required> Delantera</label>
+          <label><input type="radio" name="traccion" value="trasera"> Trasera</label>
+          <label><input type="radio" name="traccion" value="total"> Total</label>
+        </div>
+    
+        <div class="option-group" id="carroceria">
+            <label class="title">Tipo de carrocería:</label>
+          <label><input type="radio" name="carroceria" value="sedan" required> Sedán</label>
+          <label><input type="radio" name="carroceria" value="suv"> SUV</label>
+          <label><input type="radio" name="carroceria" value="coupe"> Coupé</label>
+          <label><input type="radio" name="carroceria" value="hatchback"> Hatchback</label>
+        </div>
+    </div>
+
+    <div class="puertas-container">
+        <label class="puertas-box">Número de puertas:
+            <input placeholder="2-5" class="puertas" type="number" id="puertas" min="2" max="5" required oninput="this.value = Math.max(2, Math.min(5, this.value))" style="-moz-appearance: textfield; -webkit-appearance: none; appearance: none;">
+          </label>
+    </div>
+
+    <div class="button-box">
+        <button type="button" onclick="generarFrase()">Generar Frase</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
